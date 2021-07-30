@@ -62,6 +62,11 @@ li {
   margin-top: 30px;
 }
 
+.contents-item img {
+  display: flex;
+  height: 150px;
+}
+
 .contact-form {
   padding-top: 100px;
 }
