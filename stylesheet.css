@@ -53,8 +53,12 @@ li {
 }
 
 .contents-item {
-  float: left;
-  margin-right: 40px;
+  display: flex;
+  margin-right: 50px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .contents-item p {
@@ -64,11 +68,12 @@ li {
 
 .contents-item img {
   display: flex;
-  height: 150px;
+  max-height: 150px;
+  object-position: center;
 }
 
 .contact-form {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 input,
